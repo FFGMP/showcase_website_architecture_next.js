@@ -6,30 +6,40 @@
     "Title4": "Contacts",
     "Title5": { "Name": "Português", "url": "/" }
   },
-  "images": {
-    "Image1": {
+  "mainImage": {
+    "description": "Main Building",
+    "url": "/pexels-vlado-paunovic-3695494.jpg"
+  },
+  "images": [
+    {
+      "name": "Image1",
       "url": "/pexels-mads-thomsen-3714315.jpg",
       "description": "Pexels Mads Thomsen | Main Street"
     },
-    "Image2": {
+    {
+      "name": "Image2",
       "url": "/pexels-yoss-traore-2425693.jpg",
       "description": "Pexels Yoss Traore | Oak Avenue"
     },
-    "Image3": {
+    {
+      "name": "Image3",
       "url": "/pexels-sk-1717272.jpg",
       "description": "Pexels SK | Maple Drive"
     },
-    "Image4": {
+    {
+      "name": "Image4",
       "url": "/pexels-mihai-vlasceanu-1400249.jpg",
       "description": "Pexels Mihai Vlasceanu | Elm Street"
     },
-    "Image5": {
+    {
+      "name": "Image5",
       "url": "/pexels-pixasquare-com-1115804.jpg",
       "description": "Pexels Pixasquare | Cedar Lane"
     },
-    "Image6": {
+    {
+      "name": "Image6",
       "url": "/pexels-ricky-esquivel-1662159.jpg",
       "description": "Pexels Ricky Esquivel | Pine Road"
     }
-  }
+  ]
 }

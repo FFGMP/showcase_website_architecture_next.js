@@ -1,49 +1,16 @@
-import { NextRequest, NextResponse } from "next/server";
-import { defaultLocale } from "./constants_locales/locales";
-import { i18n } from "./i18n-config";
+import createMiddleware from "next-intl/middleware";
 
-export function middleware(request: NextRequest) {
-  // Check if there is any supported locale in the pathname
-  const { pathname } = request.nextUrl;
+export default createMiddleware({
+  // A list of all locales that are supported
+  locales: ["pt", "en"],
+  localeDetection: false,
 
-  if (
-    pathname.startsWith(`/${defaultLocale}/`) ||
-    pathname === `/${defaultLocale}`
-  ) {
-    // The incoming request is for /en/whatever, so we'll reDIRECT to /whatever
-    return NextResponse.redirect(
-      new URL(
-        pathname.replace(
-          `/${defaultLocale}`,
-          pathname === `/${defaultLocale}` ? "/" : "",
-        ),
-        request.url,
-      ),
-    );
-  }
-
-  const pathnameIsMissingLocale = i18n.locales.every(
-    (locale) =>
-      !pathname.startsWith(`/${locale}/`) && pathname !== `/${locale}`,
-  );
-
-  if (pathnameIsMissingLocale) {
-    // Now for EITHER /en or /pt (for example) we're going to tell Next.js that the request is for /en/whatever
-    // or /nl/whatever, and then reWRITE the request to that it is handled properly.
-    return NextResponse.rewrite(
-      new URL(
-        `/${defaultLocale}${pathname}${request.nextUrl.search}`,
-        request.nextUrl.href,
-      ),
-    );
-  }
-}
+  // Used when no locale matches
+  defaultLocale: "pt",
+  localePrefix: "as-needed",
+});
 
 export const config = {
-  matcher: [
-    // Skip all internal paths (_next)
-    "/((?!_next).*)",
-    // Optional: only run on root (/) URL
-    // '/'
-  ],
+  // Match only internationalized pathnames
+  matcher: ["/", "/(pt|en)/:path*"],
 };

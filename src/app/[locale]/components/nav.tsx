@@ -1,29 +1,39 @@
 import { Encode_Sans_Condensed } from "next/font/google";
 import Link from "next/link";
-import { Dictionary } from "../types";
+import { useTranslations } from "next-intl";
 
 const encode_Sans_Condensed = Encode_Sans_Condensed({
   subsets: ["latin"],
   weight: "300",
 });
 
-export function NavItems({ dict }: { dict: Dictionary }) {
+export function NavItems() {
+  const t = useTranslations();
   return (
-    <ul className=" space-y-6 pb-6 pl-9 pr-6 pt-3 text-xs font-light sm:space-x-3 sm:p-0 sm:text-sm sm:font-extralight">
-      <li className="sm:inline">{dict.menu.Title1}</li>
-      <li className="sm:inline">{dict.menu.Title2}</li>
-      <li className="sm:inline">{dict.menu.Title3}</li>
-      <li className="sm:inline">{dict.menu.Title4}</li>
-      <li className="sm:hidden">
-        <Link scroll={false} href={dict.menu.Title5.url}>
-          {dict.menu.Title5.Name}
-        </Link>
+    <ul className=" pb-6 pl-9 pr-6 pt-3 text-xs font-light sm:space-x-3 sm:p-0 sm:text-sm sm:font-normal">
+      <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
+        {t("menu.Title1")}
       </li>
+      <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
+        {t("menu.Title2")}
+      </li>
+      <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
+        {t("menu.Title3")}
+      </li>
+      <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
+        {t("menu.Title4")}
+      </li>
+      <Link scroll={false} href={t("menu.Title5.url")}>
+        <li className="cursor-pointer py-3 opacity-60 hover:opacity-100  sm:hidden sm:py-0">
+          {t("menu.Title5.Name")}
+        </li>
+      </Link>
     </ul>
   );
 }
 
-export async function Nav({ dict, lang }: { dict: any; lang: string }) {
+export function Nav() {
+  const t = useTranslations();
   return (
     <nav className="relative flex h-20 w-full flex-row items-center justify-between p-2 pl-8 pt-8">
       {/*Logo */}
@@ -41,15 +51,15 @@ export async function Nav({ dict, lang }: { dict: any; lang: string }) {
 
         {/*Menu Items */}
         <div className="hidden sm:block">
-          <NavItems dict={dict} />
+          <NavItems />
         </div>
       </div>
 
       {/*Language */}
-      <div className="mr-5 hidden text-sm font-light sm:block">
-        <p>
-          <Link scroll={false} href={dict.menu.Title5.url}>
-            {dict.menu.Title5.Name}
+      <div className="mr-5 hidden text-sm font-light opacity-60 hover:underline hover:opacity-100 sm:block">
+        <p className=" ">
+          <Link scroll={false} href={t("menu.Title5.url")}>
+            {t("menu.Title5.Name")}
           </Link>
         </p>
       </div>
@@ -59,12 +69,13 @@ export async function Nav({ dict, lang }: { dict: any; lang: string }) {
           type="checkbox"
           className="peer fixed z-50 h-5 w-5  opacity-0"
           name="MenuToggle"
+          title="Menu Toggle"
         ></input>
         <div className=" h-1 w-full  rounded-sm bg-black  duration-200 peer-checked:translate-y-[0.2rem] peer-checked:rotate-45 dark:bg-white"></div>
         <div className=" h-1 w-full  rounded-sm bg-black  duration-200 peer-checked:-translate-y-[0.2rem] peer-checked:-rotate-45 dark:bg-white"></div>
         <div className=" h-1 w-full  rounded-sm bg-black  duration-200 peer-checked:hidden dark:bg-white"></div>
         <div className="absolute left-0 top-20 h-0 w-full overflow-hidden bg-neutral-300 shadow-2xl duration-300 peer-checked:h-[212px] dark:bg-neutral-800">
-          <NavItems dict={dict} />
+          <NavItems />
         </div>
       </div>
     </nav>

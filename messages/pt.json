@@ -6,30 +6,40 @@
     "Title4": "Contactos",
     "Title5": { "Name": "English", "url": "/en" }
   },
-  "images": {
-    "Image1": {
+  "mainImage": {
+    "description": "Edifício Principal",
+    "url": "/pexels-vlado-paunovic-3695494.jpg"
+  },
+  "images": [
+    {
+      "name": "Image1",
       "url": "/pexels-mads-thomsen-3714315.jpg",
       "description": "Pexels Mads Thomsen | Rua Principal"
     },
-    "Image2": {
+    {
+      "name": "Image2",
       "url": "/pexels-yoss-traore-2425693.jpg",
       "description": "Pexels Yoss Traore | Avenida do Antunes"
     },
-    "Image3": {
+    {
+      "name": "Image3",
       "url": "/pexels-sk-1717272.jpg",
       "description": "Pexels SK | Rua do Pinheiro"
     },
-    "Image4": {
+    {
+      "name": "Image4",
       "url": "/pexels-mihai-vlasceanu-1400249.jpg",
       "description": "Pexels Mihai Vlasceanu | Avenida do Cedro"
     },
-    "Image5": {
+    {
+      "name": "Image5",
       "url": "/pexels-pixasquare-com-1115804.jpg",
       "description": "Pexels Pixasquare | Rua da Oliveira"
     },
-    "Image6": {
+    {
+      "name": "Image6",
       "url": "/pexels-ricky-esquivel-1662159.jpg",
       "description": "Pexels Ricky Esquivel | Avenida do Abeto"
     }
-  }
+  ]
 }

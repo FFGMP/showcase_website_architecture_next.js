@@ -1,4 +1,5 @@
 import { Encode_Sans_Condensed } from "next/font/google";
+import { Link as LinkFromNavigation, getPathname } from "@/navigation";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
@@ -11,18 +12,26 @@ export function NavItems() {
   const t = useTranslations();
   return (
     <ul className=" pb-6 pl-9 pr-6 pt-3 text-xs font-light sm:space-x-3 sm:p-0 sm:text-sm sm:font-normal">
-      <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
-        {t("menu.Title1")}
-      </li>
-      <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
-        {t("menu.Title2")}
-      </li>
-      <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
-        {t("menu.Title3")}
-      </li>
-      <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
-        {t("menu.Title4")}
-      </li>
+      <LinkFromNavigation scroll={false} href={"/projects"}>
+        <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
+          {t("menu.Title1.Name")}
+        </li>
+      </LinkFromNavigation>
+      <Link scroll={false} href={t("menu.Title2.url")}>
+        <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
+          {t("menu.Title2.Name")}
+        </li>
+      </Link>
+      <Link scroll={false} href={t("menu.Title3.url")}>
+        <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
+          {t("menu.Title3.Name")}
+        </li>
+      </Link>
+      <Link scroll={false} href={t("menu.Title4.url")}>
+        <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
+          {t("menu.Title4.Name")}
+        </li>
+      </Link>
       <Link scroll={false} href={t("menu.Title5.url")}>
         <li className="cursor-pointer py-3 opacity-60 hover:opacity-100  sm:hidden sm:py-0">
           {t("menu.Title5.Name")}

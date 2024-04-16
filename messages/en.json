@@ -1,10 +1,10 @@
 {
   "menu": {
-    "Title1": "Projects",
-    "Title2": "News",
-    "Title3": "Studio",
-    "Title4": "Contacts",
-    "Title5": { "Name": "Português", "url": "/" }
+    "Title1": { "Name": "Projects", "url": "/en/projects" },
+    "Title2": { "Name": "News", "url": "/news" },
+    "Title3": { "Name": "Studio", "url": "/studio" },
+    "Title4": { "Name": "Concacts", "url": "/concacts" },
+    "Title5": { "Name": "Português", "url": "/pt" }
   },
   "mainImage": {
     "description": "Main Building",

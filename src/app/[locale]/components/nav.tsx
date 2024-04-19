@@ -12,17 +12,19 @@ export async function NavItems({ menuItmes }: { menuItmes: Dictionaries }) {
   const t = menuItmes;
   return (
     <ul className=" pb-6 pl-9 pr-6 pt-3 text-xs font-light sm:space-x-3 sm:p-0 sm:text-sm sm:font-normal">
+      <Link href={menuItmes.menu.Title1.url}>
+        <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
+          {t.menu.Title1.Name}
+        </li>
+      </Link>
       <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
-        {t.menu.Title1}
+        {t.menu.Title2.Name}
       </li>
       <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
-        {t.menu.Title2}
+        {t.menu.Title3.Name}
       </li>
       <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
-        {t.menu.Title3}
-      </li>
-      <li className="cursor-pointer py-3 opacity-60 hover:opacity-100 sm:inline sm:py-0">
-        {t.menu.Title4}
+        {t.menu.Title4.Name}
       </li>
       <Link scroll={false} href={t.menu.Title5.url}>
         <li className="cursor-pointer py-3 opacity-60 hover:opacity-100  sm:hidden sm:py-0">
@@ -46,9 +48,11 @@ export async function Nav({ locale }: { locale: string }) {
             " select-none border-2 border-black p-1 sm:mr-9 dark:border-white"
           }
         >
-          <p className="text-sm">
-            <span className="font-bold">NOME ATELIER </span> ARQUITETURA LDA
-          </p>
+          <Link href={locale === "pt" ? "/" : "/en"}>
+            <p className="text-sm">
+              <span className="font-bold">NOME ATELIER </span> ARQUITETURA LDA
+            </p>
+          </Link>
         </div>
 
         {/*Menu Items */}

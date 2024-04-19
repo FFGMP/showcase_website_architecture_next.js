@@ -1,9 +1,9 @@
 export type Dictionaries = {
   menu: {
-    Title1: string;
-    Title2: string;
-    Title3: string;
-    Title4: string;
+    Title1: { Name: string; url: string };
+    Title2: { Name: string; url: string };
+    Title3: { Name: string; url: string };
+    Title4: { Name: string; url: string };
     Title5: { Name: string; url: string };
   };
   mainImage: {

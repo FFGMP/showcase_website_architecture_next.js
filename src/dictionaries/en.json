@@ -1,9 +1,9 @@
 {
   "menu": {
-    "Title1": "Projects",
-    "Title2": "News",
-    "Title3": "Studio",
-    "Title4": "Contacts",
+    "Title1": { "Name": "Projects", "url": "/en/projects" },
+    "Title2": { "Name": "News", "url": "/en/news" },
+    "Title3": { "Name": "Studio", "url": "/en/studio" },
+    "Title4": { "Name": "Contacts", "url": "/en/contacts" },
     "Title5": { "Name": "Português", "url": "/" }
   },
   "mainImage": {

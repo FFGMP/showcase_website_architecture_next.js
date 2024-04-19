@@ -1,21 +1,23 @@
 import { Nav } from "./components/nav";
 import { Inter } from "next/font/google";
-import { unstable_setRequestLocale } from "next-intl/server";
-
 const inter = Inter({ subsets: ["latin"] });
+import "../globals.css";
 
-export default function LocaleLayout({
+export async function generateStaticParams() {
+  return [{ lang: "pt" }, { lang: "en" }];
+}
+
+export default async function LocaleLayout({
   children,
   params: { locale },
 }: {
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  unstable_setRequestLocale(locale);
   return (
-    <html lang={locale}>
+    <html lang="locale">
       <body className={inter.className + " min-h-screen"}>
-        <Nav />
+        <Nav locale={locale} />
         {children}
       </body>
     </html>

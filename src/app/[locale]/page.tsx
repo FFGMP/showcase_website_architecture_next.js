@@ -1,18 +1,18 @@
 import Image from "next/image";
-import { unstable_setRequestLocale } from "next-intl/server";
-import { useTranslations } from "next-intl";
+import { getDictionary } from "@/dictionaries";
+import { Dictionaries } from "@/types";
 
-function ImagesGrid() {
-  const t = useTranslations();
+function ImagesGrid({ dictionary }: { dictionary: Dictionaries }) {
+  const t = dictionary;
   return (
     <div
       className="mt-12 grid w-full items-center justify-center justify-items-center gap-12 px-3 sm:mt-32 sm:px-8"
       style={{ gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))" }}
     >
-      {t.raw("images").map((v: images, i: KeyType) => {
+      {t.images.map((v, k) => {
         return (
           <div
-            key={i}
+            key={k}
             className="group relative flex w-full flex-col items-center justify-center sm:h-fit"
           >
             <Image
@@ -20,7 +20,7 @@ function ImagesGrid() {
               width={500}
               height={500}
               quality={30}
-              alt={"Edificio " + i}
+              alt={v.name + k}
               className="w-full object-cover sm:max-h-64 sm:w-52"
             />
             <div className="opacity-0 duration-200 md:absolute md:inset-0 md:bg-black md:transition-opacity md:group-hover:opacity-50"></div>
@@ -34,26 +34,24 @@ function ImagesGrid() {
   );
 }
 
-export default function Home({
+export default async function Home({
   params: { locale },
 }: {
   params: { locale: string };
 }) {
-  unstable_setRequestLocale(locale);
-  const t = useTranslations();
-
+  const t = await getDictionary(locale);
   return (
     <main className="my-11 mt-3 flex flex-col items-center justify-center sm:mt-11">
       <Image
-        src={t("mainImage.url")}
+        src={t.mainImage.url}
         width={950}
         height={950}
         quality={30}
         priority={true}
         className="object-cover px-3"
-        alt={t("mainImage.description")}
+        alt={t.mainImage.description}
       />
-      <ImagesGrid />
+      <ImagesGrid dictionary={t} />
     </main>
   );
 }

@@ -1,0 +1,45 @@
+{
+  "menu": {
+    "Title1": "Projects",
+    "Title2": "News",
+    "Title3": "Studio",
+    "Title4": "Contacts",
+    "Title5": { "Name": "Português", "url": "/" }
+  },
+  "mainImage": {
+    "description": "Main Building",
+    "url": "/images/pexels-vlado-paunovic-3695494.jpg"
+  },
+  "images": [
+    {
+      "name": "Image1",
+      "url": "/images/pexels-mads-thomsen-3714315.jpg",
+      "description": "Pexels Mads Thomsen | Main Street"
+    },
+    {
+      "name": "Image2",
+      "url": "/images/pexels-yoss-traore-2425693.jpg",
+      "description": "Pexels Yoss Traore | Oak Avenue"
+    },
+    {
+      "name": "Image3",
+      "url": "/images/pexels-sk-1717272.jpg",
+      "description": "Pexels SK | Maple Drive"
+    },
+    {
+      "name": "Image4",
+      "url": "/images/pexels-mihai-vlasceanu-1400249.jpg",
+      "description": "Pexels Mihai Vlasceanu | Elm Street"
+    },
+    {
+      "name": "Image5",
+      "url": "/images/pexels-pixasquare-com-1115804.jpg",
+      "description": "Pexels Pixasquare | Cedar Lane"
+    },
+    {
+      "name": "Image6",
+      "url": "/images/pexels-ricky-esquivel-1662159.jpg",
+      "description": "Pexels Ricky Esquivel | Pine Road"
+    }
+  ]
+}

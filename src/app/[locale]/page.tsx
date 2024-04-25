@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getDictionary } from "@/dictionaries";
 import { Dictionaries } from "@/types";
+import { cookies } from "next/headers";
 
 function ImagesGrid({ dictionary }: { dictionary: Dictionaries }) {
   const t = dictionary;

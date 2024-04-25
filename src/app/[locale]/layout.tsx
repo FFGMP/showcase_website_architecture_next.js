@@ -15,7 +15,7 @@ export default async function LocaleLayout({
   params: { locale: string };
 }) {
   return (
-    <html lang="locale">
+    <html lang={locale}>
       <body className={inter.className + " min-h-screen"}>
         <Nav locale={locale} />
         {children}

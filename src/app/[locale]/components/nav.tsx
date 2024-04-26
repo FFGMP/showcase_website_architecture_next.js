@@ -3,6 +3,7 @@ import { Encode_Sans_Condensed } from "next/font/google";
 import Link from "next/link";
 import LanguageSelect from "./languageSelect";
 import { NavItems } from "./navItems";
+import { ProjectFilter } from "./projectsFilter";
 
 const encode_Sans_Condensed = Encode_Sans_Condensed({
   subsets: ["latin"],
@@ -32,6 +33,9 @@ export async function Nav({ locale }: { locale: string }) {
         {/*Menu Items */}
         <div className="hidden sm:block">
           <NavItems menuItems={t} />
+
+          {/*Need to pass dictionary here */}
+          <ProjectFilter />
         </div>
       </div>
 

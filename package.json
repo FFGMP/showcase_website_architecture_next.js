@@ -13,7 +13,8 @@
     "negotiator": "^0.6.3",
     "next": "^14.2.3",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "sharp": "^0.33.3"
   },
   "devDependencies": {
     "@types/negotiator": "^0.6.3",

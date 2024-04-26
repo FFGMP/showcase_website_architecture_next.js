@@ -4,7 +4,7 @@ import { usePathname } from "next/navigation";
 import { Dictionaries } from "@/types";
 import LanguageSelect from "./languageSelect";
 
-export async function NavItems({ menuItems }: { menuItems: Dictionaries }) {
+export function NavItems({ menuItems }: { menuItems: Dictionaries }) {
   const t = menuItems;
   const pathname = usePathname();
   return (

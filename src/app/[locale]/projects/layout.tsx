@@ -1,8 +1,9 @@
 export default function ProjectsLayout({
+  children,
   params: { locale },
 }: {
+  children: React.ReactNode;
   params: { locale: string };
 }) {
-  console.log(locale);
-  return <div></div>;
+  return <div>{children}</div>;
 }

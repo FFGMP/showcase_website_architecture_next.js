@@ -14,7 +14,7 @@ export async function Nav({ locale }: { locale: string }) {
   const t = await getDictionary(locale);
 
   return (
-    <nav className="relative flex h-20 w-full flex-row items-center justify-between p-2 pl-8 pt-8">
+    <nav className="relative z-50 flex h-20 w-full flex-row items-center justify-between p-2 pl-8 pt-8">
       {/*Logo */}
       <div className="flex items-end">
         <div
@@ -35,7 +35,7 @@ export async function Nav({ locale }: { locale: string }) {
           <NavItems menuItems={t} />
 
           {/*Need to pass dictionary here */}
-          <ProjectFilter />
+          <ProjectFilter dictionary={t} />
         </div>
       </div>
 

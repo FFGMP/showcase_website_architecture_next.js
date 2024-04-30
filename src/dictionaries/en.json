@@ -6,6 +6,12 @@
     "Title4": { "Name": "Contacts", "url": "/en/contacts" },
     "Title5": { "Name": "Português", "url": "/" }
   },
+  "projectFilter": {
+    "Filter1": { "Name": "Equipments" },
+    "Filter2": { "Name": "Housing" },
+    "Filter3": { "Name": "Rehabilitation" },
+    "Filter4": { "Name": "All" }
+  },
   "mainImage": {
     "description": "Main Building",
     "url": "/images/pexels-vlado-paunovic-3695494.jpg"
@@ -14,32 +20,44 @@
     {
       "name": "Image1",
       "url": "/images/pexels-mads-thomsen-3714315.jpg",
-      "description": "Pexels Mads Thomsen | Main Street"
+      "description": "Pexels Mads Thomsen | Main Street",
+      "category": "Equipments"
     },
     {
       "name": "Image2",
       "url": "/images/pexels-yoss-traore-2425693.jpg",
-      "description": "Pexels Yoss Traore | Oak Avenue"
+      "description": "Pexels Yoss Traore | Oak Avenue",
+      "category": "Housing"
     },
     {
       "name": "Image3",
       "url": "/images/pexels-sk-1717272.jpg",
-      "description": "Pexels SK | Maple Drive"
+      "description": "Pexels SK | Maple Drive",
+      "category": "Rehabilitation"
     },
     {
       "name": "Image4",
       "url": "/images/pexels-mihai-vlasceanu-1400249.jpg",
-      "description": "Pexels Mihai Vlasceanu | Elm Street"
+      "description": "Pexels Mihai Vlasceanu | Elm Street",
+      "category": "Equipments"
     },
     {
       "name": "Image5",
       "url": "/images/pexels-pixasquare-com-1115804.jpg",
-      "description": "Pexels Pixasquare | Cedar Lane"
+      "description": "Pexels Pixasquare | Cedar Lane",
+      "category": "Housing"
     },
     {
       "name": "Image6",
       "url": "/images/pexels-ricky-esquivel-1662159.jpg",
-      "description": "Pexels Ricky Esquivel | Pine Road"
+      "description": "Pexels Ricky Esquivel | Pine Road",
+      "category": "Rehabilitation"
+    },
+    {
+      "name": "Image7",
+      "url": "/images/pexels-yoss-traore-2425693.jpg",
+      "description": "Pexels Ricky Esquivel | Pine Road",
+      "category": "Equipments"
     }
   ]
 }

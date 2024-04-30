@@ -1,28 +1,15 @@
-export default function Projects({
+import { getDictionary } from "@/dictionaries";
+import { ImagesGrid } from "./components/imagesGrid";
+
+export default async function Projects({
   params: { locale },
 }: {
   params: { locale: string };
 }) {
+  const t = await getDictionary(locale);
   return (
     <div className="flex">
-      {/*<div className="flex flex-row pl-8">
-        <div className="w-96"></div>
-        <ul className="hidden w-full space-x-3 text-sm sm:block">
-          <li className="inline cursor-pointer opacity-60 hover:opacity-100">
-            Equipamentos
-          </li>
-          <li className="inline cursor-pointer opacity-60 hover:opacity-100">
-            Habitação
-          </li>
-          <li className="inline cursor-pointer opacity-60 hover:opacity-100">
-            Reabilitação
-          </li>
-          <li className="inline cursor-pointer opacity-60 hover:opacity-100">
-            Todos
-          </li>
-        </ul>
-      </div>
-  */}
+      <ImagesGrid dictionary={t} />
     </div>
   );
 }

@@ -6,6 +6,12 @@ export type Dictionaries = {
     Title4: { Name: string; url: string };
     Title5: { Name: string; url: string };
   };
+  projectFilter: {
+    Filter1: { Name: string };
+    Filter2: { Name: string };
+    Filter3: { Name: string };
+    Filter4: { Name: string };
+  };
   mainImage: {
     description: string;
     url: string;
@@ -14,5 +20,6 @@ export type Dictionaries = {
     name: string;
     url: string;
     description: string;
+    category: string;
   }[];
 };

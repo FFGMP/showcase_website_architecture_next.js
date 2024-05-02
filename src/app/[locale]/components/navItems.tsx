@@ -23,7 +23,13 @@ export function NavItems({ menuItems }: { menuItems: Dictionaries }) {
           {t.menu.Title1.Name}
         </Link>
       </li>
-      <li className="flex cursor-pointer opacity-60 hover:opacity-100 sm:inline ">
+      <li
+        className={
+          pathname.endsWith("news") || pathname.endsWith("noticias")
+            ? "flex cursor-pointer  opacity-100 sm:inline "
+            : "flex cursor-pointer  opacity-60 hover:opacity-100 sm:inline "
+        }
+      >
         <Link
           className={"h-full w-full py-3 sm:py-0"}
           href={menuItems.menu.Title2.url}

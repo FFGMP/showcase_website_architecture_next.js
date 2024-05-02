@@ -22,4 +22,24 @@ export type Dictionaries = {
     description: string;
     category: string;
   }[];
+  newsFilter: {
+    Title1: { Name: string };
+    Title2: { Name: string };
+    Title3: { Name: string };
+    Title4: { Name: string };
+    Title5: { Name: string };
+  };
+  newsPosts: {
+    News: {
+      Title: string;
+      Date: string;
+      Text: string;
+      Category: string;
+      Image: {
+        name: string;
+        url: string;
+        description: string;
+      };
+    };
+  }[];
 };

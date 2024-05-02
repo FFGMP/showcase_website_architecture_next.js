@@ -18,7 +18,7 @@ export function ImagesGrid({ dictionary }: { dictionary: Dictionaries }) {
 
   return (
     <div
-      className="mt-3 grid w-full items-center justify-center justify-items-center gap-12 px-3 sm:mt-12 sm:px-8"
+      className="mb-11 mt-3 grid w-full items-center justify-center justify-items-center gap-12 px-3 sm:mt-12 sm:px-8"
       style={{ gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))" }}
     >
       {t.images.map((v, k) => {

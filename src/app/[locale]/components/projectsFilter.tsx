@@ -35,8 +35,9 @@ export function ProjectFilter({ dictionary }: { dictionary: Dictionaries }) {
             >
               <label>
                 <input
+                  hidden
                   defaultChecked={v[0] === "Filter4"}
-                  className="peer hidden"
+                  className="peer "
                   type="radio"
                   name="FilterRadio"
                 ></input>

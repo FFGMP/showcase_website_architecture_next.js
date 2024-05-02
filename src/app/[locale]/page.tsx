@@ -24,7 +24,7 @@ function ImagesGrid({ dictionary }: { dictionary: Dictionaries }) {
               priority={true}
               className="w-full object-cover sm:max-h-64 sm:w-52"
             />
-            <div className="opacity-0 duration-200 md:absolute md:inset-0 md:bg-black md:transition-opacity md:group-hover:opacity-50"></div>
+            <div className="opacity-0 duration-200 md:absolute md:inset-0 md:bg-black md:transition-opacity md:group-hover:opacity-50 md:dark:bg-neutral-950"></div>
             <p className="w-full flex-grow select-none pt-2 text-sm transition-opacity duration-0 sm:max-w-52 sm:flex-grow-0 sm:pt-0 md:absolute md:text-center md:text-base  md:text-white md:opacity-0 md:group-hover:opacity-100 md:group-hover:duration-200">
               {v.description}
             </p>

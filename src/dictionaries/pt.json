@@ -59,5 +59,222 @@
       "description": "Pexels Ricky Esquivel | Avenida do Abeto",
       "category": "Habitação"
     }
+  ],
+  "newsFilter": {
+    "Title1": { "Name": "Todas" },
+    "Title2": { "Name": "Obras" },
+    "Title3": { "Name": "Prémios" },
+    "Title4": { "Name": "Publicações" },
+    "Title5": { "Name": "Conferências" }
+  },
+  "newsPosts": [
+    {
+      "News": {
+        "Title": "Titulo1",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Obras",
+        "Image": {
+          "name": "Image1",
+          "url": "/images/pexels-mads-thomsen-3714315.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo2",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo3",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo4",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo5",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo6",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo7",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo8",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo1",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Obras",
+        "Image": {
+          "name": "Image1",
+          "url": "/images/pexels-mads-thomsen-3714315.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo2",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo3",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo4",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo5",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo6",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo7",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    },
+    {
+      "News": {
+        "Title": "Titulo8",
+        "Date": "01.05.2024",
+        "Text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec porttitor varius elementum. Etiam hendrerit sagittis leo, vehicula tempus erat tincidunt nec. Cras eu consectetur dolor. Cras consequat, urna non consequat blandit, odio ex vehicula risus, ut pretium dui tortor at lacus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin finibus quis metus in venenatis. Proin aliquam turpis vel dignissim lobortis.\nFusce posuere nunc sit amet sapien commodo, quis facilisis eros mollis. Nullam nec tellus feugiat, hendrerit dolor quis, eleifend mi. Mauris porttitor quis leo id ullamcorper. Aenean sodales id arcu id dignissim. Aliquam ligula est, consectetur ac purus id, interdum euismod felis. Maecenas dapibus leo eu ullamcorper molestie. Aliquam dapibus ligula eget tincidunt tincidunt. Maecenas non orci eget metus pellentesque luctus. Pellentesque eget aliquet lacus. Nullam quis libero eros. Suspendisse dignissim libero lectus, ac vehicula sapien auctor et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam blandit quam elementum justo ullamcorper volutpat. Cras lacinia quis urna eu auctor. Aenean vel gravida lacus.",
+        "Category": "Conferências",
+        "Image": {
+          "name": "Image2",
+          "url": "/images/pexels-pixasquare-com-1115804.jpg",
+          "description": "Pexels Mads Thomsen | Rua Principal"
+        }
+      }
+    }
   ]
 }

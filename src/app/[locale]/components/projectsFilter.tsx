@@ -13,7 +13,7 @@ export function ProjectFilter({ dictionary }: { dictionary: Dictionaries }) {
   const pathname = usePathname();
   useEffect(() => {
     setFilterItem(dictionary.projectFilter.Filter4.Name);
-  }, []);
+  });
   return (
     <div
       className={

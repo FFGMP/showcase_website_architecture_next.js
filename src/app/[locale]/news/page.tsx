@@ -1,6 +1,6 @@
 import { getDictionary } from "@/dictionaries";
-import { FilterNews } from "./components/FilterNews";
-import { NewsPosts } from "./components/NewsPosts";
+import { FilterNews } from "./components/filterNews";
+import { NewsPosts } from "./components/newsPosts";
 
 export default async function News({
   params: { locale },

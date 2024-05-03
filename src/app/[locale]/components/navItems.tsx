@@ -38,18 +38,12 @@ export function NavItems({ menuItems }: { menuItems: Dictionaries }) {
         </Link>
       </li>
       <li className="flex cursor-pointer  opacity-60 hover:opacity-100 sm:inline ">
-        <Link
-          className={"h-full w-full py-3 sm:py-0"}
-          href={menuItems.menu.Title3.url}
-        >
+        <Link className={"h-full w-full py-3 sm:py-0"} href={"#"}>
           {t.menu.Title3.Name}
         </Link>
       </li>
       <li className="flex cursor-pointer opacity-60 hover:opacity-100 sm:inline ">
-        <Link
-          className={"h-full w-full py-3 sm:py-0"}
-          href={menuItems.menu.Title4.url}
-        >
+        <Link className={"h-full w-full py-3 sm:py-0"} href={"#"}>
           {t.menu.Title4.Name}
         </Link>
       </li>
